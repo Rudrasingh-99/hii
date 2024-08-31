@@ -1,0 +1,140 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #82b1ff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff8a80;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('path-to-your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 6rem 2rem;
+    border-bottom: 4px solid #333;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer Styles */
+footer {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 1px solid #333;
+}
+
+/* Login Form Styles */
+.login-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.login-form h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #222;
+    color: #e0e0e0;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-form button:hover {
+    background-color: #e64a19;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - NOVA-MENTIS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline CSS for background image */
+        body {
+            background: url(home_page_image.jpg) no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #2c3e50;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Navigation styles */
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #e74c3c;
+        }
+
+        /* Main content styles */
+        main {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 50px;
+            max-width: 900px;
+            margin: 30px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-out;
+        }
+
+        main h2 {
+            color: #34495e;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            color: #777;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Hover effect for main sections */
+        section {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to NOVA-MENTIS</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Mission</h2>
+            <p>Providing quality educational resources and tools to empower learners worldwide.</p>
+        </section>
+        <section>
+            <h2>Featured Courses</h2>
+            <p>Explore our most popular courses in various subjects, from mathematics to science.</p>
+        </section>
+        <section>
+            <h2>Latest News</h2>
+            <p>Stay updated with our latest news and announcements.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 NOVA-MENTIS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
